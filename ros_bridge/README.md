@@ -56,4 +56,4 @@ rb_echo /robot/end_effector_pose --host {host_ip}
 4. 이 스크립트는 `rostopic echo`와 유사하지만 완전히 동일한 출력 형식을 제공하지는 않는다. 대신 JSON 형식으로 출력한다.
 
 ## 실행 영상
-![alt text](ROSBridgeEcho.mp4)
+https://github.com/user-attachments/assets/52f5fe82-ae73-49d1-b2e3-c36df7c7c478
