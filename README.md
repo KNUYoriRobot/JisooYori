@@ -1,6 +1,6 @@
 # JisooYori
 
-Setup 과정과 실행 방법
+Setup 과정과 실행 방법. 여기서 host는 20.04, client는 22.04를 말한다.
 
 ## Ubuntu 20.04 PC
 
@@ -35,7 +35,7 @@ Setup 과정과 실행 방법
    1) ROS TCP endpoint 실행
 
       ```bash
-      roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=<YOUR_IP> tcp_port:=10000
+      roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=<host_ip> tcp_port:=10000
       ```
 
    1) ros2quest 실행
@@ -52,7 +52,7 @@ Setup 과정과 실행 방법
 
 ## Ubuntu 22.04 PC
 
-1. `/ros_bridge/README.md`의 step을 따라 초기 설정
+1. [`/ros_bridge/README.md`](https://github.com/KNUYoriRobot/JisooYori/tree/main/ros_bridge)의 step을 따라 초기 설정
 
 1. 수신한 topic을 echo
 
