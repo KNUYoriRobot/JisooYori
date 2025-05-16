@@ -2,7 +2,7 @@
 
 Setup 과정과 실행 방법. 여기서 host는 20.04, client는 22.04를 말한다.
 
-## Ubuntu 20.04 PC
+## Ubuntu 20.04 Docker
 
 1. quest_noetic_bridge image file pull하기
 
