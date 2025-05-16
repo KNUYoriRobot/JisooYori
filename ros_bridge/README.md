@@ -25,7 +25,7 @@ ROS와 비-ROS 시스템 간의 통신을 가능하게 해주는 인터페이스
     ./rosbridge_echo.py /robot/<topic_name>
 
     # 원격 서버와 특정 메시지 타입 지정
-    ./rosbridge_echo.py /robot/<topic_name> --host 100.83.142.42 --msg-type {토픽_type}
+    ./rosbridge_echo.py /robot/<topic_name> --host 100.83.142.42 --msg-type <topic_type>
     ```
 
 ### 배쉬 별칭으로 편하게 사용하기
@@ -41,7 +41,7 @@ alias rb_echo='python3 <script_저장_위치>/rosbridge_echo.py'
 
 ```bash
 source ~/.bashrc
-rb_echo /robot/<topic_name> --host {host_ip}
+rb_echo /robot/<topic_name> --host <host_ip>
 ```
 
 ## 다양한 토픽과 메시지 타입 지원
